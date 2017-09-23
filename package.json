@@ -1,0 +1,32 @@
+{
+  "name": "react-components",
+  "version": "2.0.0",
+  "description": "React and ES2015",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack --watch"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0",
+    "webpack": "^3.5.5"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}
